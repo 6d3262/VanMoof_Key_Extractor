@@ -18,7 +18,7 @@ There are two ways to use this script:
 1. Query the Vanmoof API:
 
     ```sh
-    python3 pymoof3.py -u username@example.com -p yourpassword
+    python3 VanMoof_key_extractor.py -u username@example.com -p yourpassword
     ```
 
     If the `-u` (username) or `-p` (password) argument is omitted, the script will prompt you for the missing information.
@@ -26,7 +26,7 @@ There are two ways to use this script:
 2. Parse a local JSON file:
 
     ```sh
-    python3 pymoof3.py -j /path/to/your/file.json
+    python3 VanMoof_key_extractor.py -j /path/to/your/file.json
     ```
 
 
